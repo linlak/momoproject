@@ -1,0 +1,27 @@
+{
+    "name": "linlak/momoproject",
+    "description": "This is a template project to enable you get started with momo api integration using linlak/momoapi",
+    "keywords": [
+         "momo api project","linlak","linus"
+      ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Linus Nowomukama",
+            "email": "nowomukama.linlak.linus2@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"linlak/momoapi":"*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "MomoProject\\": "src/"
+        }
+    },
+    "suggest": {
+        "linlak/momoapi": "Required for momo api integration"
+    }
+}
