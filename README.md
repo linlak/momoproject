@@ -7,10 +7,26 @@ This template has been designed to help programmers who are new to composer to g
 ## Installation ##
 To start a new project go to you project directory and open it in terminal or command prompt (cmd) for windows and enter the following commands.
 
-	composer
+**Note:** These instructions will walk you through the creating a new project that is psr7 compliant.
+
+	composer create-project linlak/momoproject <myproject>
+	
+Replace my project with your project's name.
 	
 Lets run through  the directory structure created
 
+
+Now enter the following command to install dependencies
+
+	composer  install
+After running this command, you now have a folder called vendor. This is where all third party modules will be installed.
+
+To install new libraries you will just need to run
+
+	composer require <package name>
+To update dependencies you run
+
+	composer update
 
 **Nice coding**
 

@@ -5,6 +5,7 @@
          "momo api project","linlak","linus"
       ],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Linus Nowomukama",
