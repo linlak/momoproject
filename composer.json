@@ -5,7 +5,7 @@
          "momo api project","linlak","linus"
       ],
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Linus Nowomukama",
@@ -22,6 +22,9 @@
             "MomoProject\\": "src/"
         }
     },
+  "config":{
+    "preferred-install": "dist"
+  },
     "suggest": {
         "linlak/momoapi": "Required for momo api integration"
     }
