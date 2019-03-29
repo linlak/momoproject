@@ -17,6 +17,7 @@
 		"linlak/momoapi":"*",
         "guzzlehttp/guzzle": "^6.3"
     },
+    "prefer-stable": true,
 	"autoload": {
         "psr-4": {
             "MomoProject\\": "src/"
@@ -27,5 +28,10 @@
   },
     "suggest": {
         "linlak/momoapi": "Required for momo api integration"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
