@@ -14,7 +14,7 @@
     ],
     "type": "project",
     "require": {
-		"linlak/momoapi":"*",
+		"linlak/momoapi":"^1.0.1",
         "guzzlehttp/guzzle": "^6.3"
     },
     "prefer-stable": true,
