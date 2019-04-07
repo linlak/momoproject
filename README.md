@@ -7,12 +7,22 @@ This template has been designed to help programmers who are new to composer to g
 ## Installation ##
 To start a new project go to you project directory and open it in terminal or command prompt (cmd) for windows and enter the following commands.
 
-**Note:** These instructions will walk you through the creating a new project that is psr7 compliant. If you already have
+**Note:** These instructions will walk you through the creating a new project that is psr7 compliant.
+
 
 	composer create-project linlak/momoproject <myproject>
 	
 Replace my project with your project's name.
+
+If you already have a project with composer you just have to run the command below.
+
+	composer require linlak/momoapi
 	
+
+If you have already run the command above simply run
+	
+	composer update
+
 Lets run through  the directory structure created
 
 
