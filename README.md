@@ -5,6 +5,7 @@ This template has been designed to help programmers who are new to composer to g
 	composer require <package name>
 	
 ## Installation ##
+
 To start a new project go to you project directory and open it in terminal or command prompt (cmd) for windows and enter the following commands.
 
 **Note:** These instructions will walk you through the creating a new project that is psr7 compliant.
@@ -29,11 +30,13 @@ Lets run through  the directory structure created
 Now enter the following command to install dependencies
 
 	composer  install
+	
 After running this command, you now have a folder called vendor. This is where all third party modules will be installed.
 
 To install new libraries you will just need to run
 
 	composer require <package name>
+	
 To update dependencies you run
 
 	composer update
